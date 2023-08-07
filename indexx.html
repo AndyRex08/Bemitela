@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-width">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 id="title">Bemitela Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+
+        <form action="_self" id="survey-form">
+                <label for="name">Name
+                    <input type="text" id="name" placeholder="'e.g, John Doe'" required>
+                </label>
+                <label for="email">Email
+                    <input type="email" id="email" placeholder="'e.g  abcdefjh@gmail.com'" required>
+                </label>
+                <label for="number">Age (optional)
+                    <input type="number" id="number" min="13" max="75" placeholder="Current age">
+                </label>
+
+                <p>Which option best describes your current role?</p>
+                <label for="dropdown">
+                <select name="role" id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time Job">Full time Job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Others">Others</option>
+                </select>
+                </label>
+
+                <p>Would you recommend this app to a friend?</p>
+                <label for="yes">
+                    <input type="radio" id="yes" name="Definitely-Maybe-Not Sure" value="definitely" required>Definitely
+                </label>
+                <label for="maybe">
+                    <input type="radio" id="maybe" name="Definitely-Maybe-Not Sure" value="maybe" required>Maybe
+                </label>
+                <label for="notsure">
+                    <input type="radio" id="notsure" name="Definitely-Maybe-Not Sure" value="notsure" required>Not Sure
+                </label>
+
+                <p>What is your favorite feature of Bemitela</p>
+                <label for="feature">
+                    <select name="feqture" id="feature">
+                        <option value="">Select an option</option>
+                        <option value="Challenges">Challenges</option>
+                        <option value="Projects">Projects</option>
+                        <option value="Community">Community</option>
+                        <option value="Open Source">Open Source</option>
+                    </select>
+                </label>
+
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label for="check">
+                    <input type="checkbox" id="check"  value="1">Front-end Projects
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="2">Back-end Projects
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="3">Data Visualization
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="4">Challenges
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="5">Open Source Community
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="5">Glitter help rooms
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="6">Videos
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="7">City Meets
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="8">Wiki
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="9">Forum
+                </label>
+                <label for="check">
+                    <input type="checkbox" id="check" value="9">Additional Courses
+                </label>
+
+                <p>Any comments or suggestions?</p>
+                <label for="text">
+                    <textarea name="teaxtarea" id="text" cols="30" rows="5" placeholder="Enter your comments here..."></textarea>
+                </label>
+
+                <label for="submit">
+                    <input type="submit" value="Submit" id="submit">
+                </label>
+        </form>
+    </body>
+</html>

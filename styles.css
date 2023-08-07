@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(94, 104, 187);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    width: 40vw;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(64, 64, 66, 0.45);
+    padding: 7vh 6vw;
+    border-radius: 30px;
+}
+
+form p{
+    text-align: left;
+    margin-top: 10vh;
+}
+
+form label{
+    display: block;
+    margin-bottom: 2vh;
+    font-size: 20px;
+}
+
+form input[type="text"]:only-of-type {
+    width: 20vw;
+    height: 3vh;
+}
+
+form input[type="email"]:only-of-type {
+    width: 20vw;
+    height: 3vh;
+}
+
+form input[type="number"]:only-of-type {
+    width: 3vw;
+    height: 3vh;
+}
+
+form select {
+    margin-top: -15px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 15px;
+}
+
+
+form input[type="checkbox"]:only-of-type {
+    
+}
+
+form textarea{
+    width: 30vw;
+}
+
+form input[type="submit"]:only-of-type {
+    width: 7vw;
+    height: 5vh;
+    font-size: 18px;
+    border: 1px solid  rgb(66, 55, 55);
+}
+
+form input[type="submit"]:only-of-type:hover {
+    background-color: rgb(97, 153, 158);
+}
